@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Мои заказы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220924032703">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="300" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item _active"><a href="" class="menu__link ">Home </a></li>
+							<li class="menu__item"><a href="" class="menu__link">Clothes</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Shoes</a></li>
+							<li class="menu__item"><a href="" class="menu__link"> Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#" class="header__logo">
+					<svg class="svg-svg-logo-dims">
+						<use xlink:href="img/icons/icons.svg#svg-logo"></use>
+					</svg>
+				</a>
+				<div class="header__actions">
+					<div class="header__search search-header">
+						<button type="button" class="search-header__button">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M5.94286 0C7.519 0 9.03059 0.62612 10.1451 1.74062C11.2596 2.85512 11.8857 4.36671 11.8857 5.94286C11.8857 7.41486 11.3463 8.768 10.4594 9.81029L10.7063 10.0571H11.4286L16 14.6286L14.6286 16L10.0571 11.4286V10.7063L9.81029 10.4594C8.73193 11.3799 7.36065 11.8856 5.94286 11.8857C4.36671 11.8857 2.85512 11.2596 1.74062 10.1451C0.62612 9.03059 0 7.519 0 5.94286C0 4.36671 0.62612 2.85512 1.74062 1.74062C2.85512 0.62612 4.36671 0 5.94286 0ZM5.94286 1.82857C3.65714 1.82857 1.82857 3.65714 1.82857 5.94286C1.82857 8.22857 3.65714 10.0571 5.94286 10.0571C8.22857 10.0571 10.0571 8.22857 10.0571 5.94286C10.0571 3.65714 8.22857 1.82857 5.94286 1.82857Z" fill="black" />
+							</svg>
+						</button>
+						<form class="search-header__form">
+							<div class="search-header__input"><input type="text" placeholder="Search..."></div>
+							<button type="button" class="search-header__icon">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5.94286 0C7.519 0 9.03059 0.62612 10.1451 1.74062C11.2596 2.85512 11.8857 4.36671 11.8857 5.94286C11.8857 7.41486 11.3463 8.768 10.4594 9.81029L10.7063 10.0571H11.4286L16 14.6286L14.6286 16L10.0571 11.4286V10.7063L9.81029 10.4594C8.73193 11.3799 7.36065 11.8856 5.94286 11.8857C4.36671 11.8857 2.85512 11.2596 1.74062 10.1451C0.62612 9.03059 0 7.519 0 5.94286C0 4.36671 0.62612 2.85512 1.74062 1.74062C2.85512 0.62612 4.36671 0 5.94286 0ZM5.94286 1.82857C3.65714 1.82857 1.82857 3.65714 1.82857 5.94286C1.82857 8.22857 3.65714 10.0571 5.94286 10.0571C8.22857 10.0571 10.0571 8.22857 10.0571 5.94286C10.0571 3.65714 8.22857 1.82857 5.94286 1.82857Z" fill="black" />
+								</svg>
+							</button>
+						</form>
+					</div>
+					<a href="#" class="header__user">
+						<svg class="svg-svg-user-dims">
+							<use xlink:href="img/icons/icons.svg#svg-user"></use>
+						</svg>
+					</a>
+					<div class="header__cart cart-hader">
+						<a href="#" class="cart-hader__icon">
+							<svg class="svg-svg-cart-dims">
+								<use xlink:href="img/icons/icons.svg#svg-cart"></use>
+							</svg>
+						</a>
+						<div class="cart-hader__body">
+							<div class="cart-hader__list"></div>
+						</div>
+					</div>
+					<a href="#" class="cart-hader__follow">
+						<svg class="svg-svg-follow-dims">
+							<use xlink:href="img/icons/icons.svg#svg-follow"></use>
+						</svg>
+					</a>
+					<button type="button" class="menu__icon icon-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page-cart-shop shop-cart">
+				<div class="shop-cart__container ">
+					<h1 class="shop-cart__title">Shopping Cart (2 item) </h1>
+					<div class="shop-cart__products">
+						<div class="shop-cart__haed">
+							<div class="shop-cart__vlaue">ITEM DESCRIPTION</div>
+							<div class="shop-cart__vlaue">QUANTITY</div>
+							<div class="shop-cart__vlaue">UNIT PRICE</div>
+							<div class="shop-cart__vlaue">SUB TOTAL</div>
+						</div>
+						<div class="shop-cart__items">
+							<div class="shop-cart__item item-cart">
+								<a href="#" class="item-cart__image-ibg"><picture><source srcset="img/cart-shop/product-1.webp" type="image/webp"><img src="img/cart-shop/product-1.png" alt=""></picture></a>
+								<div class="item-cart__body">
+									<div class="item-cart__content">
+										<div class="item-cart__title sub-title">Casual flat loafers</div>
+										<div class="item-cart__size">Size - EU: 36 US: 5.5</div>
+									</div>
+									<div class="item-cart__actions">
+										<button type="button" class="item-cart__fovorires">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#svg-follow"></use>
+											</svg>
+											MOVE TO FAVORITES</button>
+										<button type="button" class="item-cart__remove">
+											<img src="img/icons/remove.svg" alt="">
+											REMOVE</button>
+									</div>
+								</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__quantity">
+									<select name="form[]" class="form">
+										<option value="1" selected>1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__price">₦
+									10,000</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__full-price">₦
+									20,000</div>
+							</div>
+						</div>
+						<div class="shop-cart__items">
+							<div class="shop-cart__item item-cart">
+								<a href="#" class="item-cart__image-ibg"><picture><source srcset="img/cart-shop/product-2.webp" type="image/webp"><img src="img/cart-shop/product-2.png" alt=""></picture></a>
+								<div class="item-cart__body">
+									<div class="item-cart__content">
+										<div class="item-cart__title sub-title">Casual flat loafers</div>
+										<div class="item-cart__size">Size - EU: 36 US: 5.5</div>
+									</div>
+									<div class="item-cart__actions">
+										<button type="button" class="item-cart__fovorires">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#svg-follow"></use>
+											</svg>
+											MOVE TO FAVORITES</button>
+										<button type="button" class="item-cart__remove">
+											<img src="img/icons/remove.svg" alt="">
+											REMOVE</button>
+									</div>
+								</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__quantity">
+									<select name="form[]" class="form">
+										<option value="1" selected>1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__price">₦
+									10,000</div>
+							</div>
+							<div class="shop-cart__inner">
+								<div class="shop-cart__full-price">₦
+									20,000</div>
+							</div>
+						</div>
+					</div>
+					<div class="shop-cart__footer">:
+						<div class="shop-cart__total-price">TOTAL
+							<span>₦ 20,000</span>
+						</div>
+						<div class="shop-cart__desrc">Delivery fee not included yet</div>
+						<div class="shop-cart__buttons">
+							<a href="#" class="shop-cart__button btn btn_border">CONTINUE SHOPPING</a>
+							<button type="submit" class="shop-cart__button btn">PROCEED TO CHECKOUT</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo">
+					<svg class="svg-svg-logo-dims">
+						<use xlink:href="img/icons/icons.svg#svg-logo"></use>
+					</svg>
+				</a>
+				<div class="footer__block">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="" class="footer__link">About-us</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<svg class="svg-svg-facebook-dims">
+								<use xlink:href="img/icons/icons.svg#svg-facebook"></use>
+							</svg>
+							<a href="" class="footer__link">Facebook</a>
+						</li>
+						<li class="footer__item">
+							<svg class="svg-svg-instagram-dims">
+								<use xlink:href="img/icons/icons.svg#svg-instagram"></use>
+							</svg>
+							<a href="" class="footer__link">Twitter</a>
+						</li>
+						<li class="footer__item">
+							<svg class="svg-svg-twitter-dims">
+								<use xlink:href="img/icons/icons.svg#svg-twitter"></use>
+							</svg>
+							<a href="" class="footer__link">Instagram</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__subscribe">
+					<form action="#" class="footer__form form">
+						<div class="form__value">Subscribe to our newsletter</div>
+						<div class="form__item">
+							<div class="form__input"><input type="email" placeholder="Email Address"></div>
+							<button type="submit" class="form__button btn btn_mini">OK</button>
+						</div>
+					</form>
+				</div>
+				<div class="footer__block">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="" class="footer__link">Sawojajar Malang, Indonesia</a></li>
+						<li class="footer__item"><a href="" class="footer__link">+44 345 678 903</a></li>
+						<li class="footer__item"><a href="" class="footer__link">abodexd@mail.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220924032703"></script>
+</body>
+
+</html>
